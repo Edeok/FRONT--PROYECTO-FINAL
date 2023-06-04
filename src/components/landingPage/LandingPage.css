@@ -1,0 +1,45 @@
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .title {
+    font-size: 2.5rem; /* Tamaño de letra grande */
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .description {
+    font-size: 1.5rem; /* Tamaño de letra mediano */
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .shop-button {
+    font-size: 1.2rem; /* Tamaño de letra más pequeño */
+    padding: 0.5rem 1rem;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilos responsivos */
+  @media (max-width: 768px) {
+    .title {
+      font-size: 2rem;
+    }
+  
+    .description {
+      font-size: 1.2rem;
+    }
+  
+    .shop-button {
+      font-size: 1rem;
+      padding: 0.4rem 0.8rem;
+    }
+  }
+  
