@@ -1,0 +1,32 @@
+/* ProductsDetail.css */
+
+.products-detail-container {
+    text-align: center;
+  }
+  
+  .products-detail-container button {
+    margin-bottom: 20px;
+  }
+  
+  .products-detail-container section {
+    margin-top: 20px;
+  }
+  
+  .products-detail-container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .products-detail-container p.stock {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .products-detail-container p.description {
+    margin-bottom: 20px;
+  }
+  
+  .products-detail-container p.price {
+    font-weight: bold;
+  }
+  
